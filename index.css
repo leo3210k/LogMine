@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Kufam', sans-serif;
+}
+
+:root {
+  --white: #fff;
+  --jungle-green: #269E6D;
 }
 
 html {
@@ -12,7 +18,40 @@ html {
 .container {
   width: 100vw;
   height: 100vh;
+  margin: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
   background-image: url('./assets/images/background-image.png');
   background-position: center;
   background-repeat: round;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.logo-text {
+  color: var(--white);
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  column-gap: 2rem;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.header span:first-of-type {
+  padding: 0.5rem 2.2rem;
+  border-radius: 0.4rem;
+  color: var(--jungle-green);
+  background-color: var(--white);
 }
