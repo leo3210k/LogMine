@@ -10,6 +10,9 @@
   --white: rgb(255, 255, 255);
   --black:rgba(38, 38, 38, 0.8);
   --jungle-green: rgb(38, 158, 109);
+  --mine-shaft:rgba(38, 38, 38, 1);
+  --tundora: rgba(65, 65, 65, 1);
+  --nobel: rgba(186, 172, 172, 1);
 }
 
 html {
@@ -27,7 +30,7 @@ html {
 
   background-image: url('./assets/images/background-image.png');
   background-position: center;
-  background-repeat: round;
+  background-repeat: no-repeat;
 }
 
 .logo {
@@ -60,12 +63,12 @@ html {
 }
 
 .login-form {
-  width: 30vw;
-  height: 45vh;
-  margin: 9.5rem 0;
+  width: 33vw;
+  height: 50vh;
+  margin: 6rem 0;
+  padding: 1.2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   border-radius: 1rem;
   background-color: var(--black);
@@ -74,6 +77,26 @@ html {
 .form {
   display: flex;
   flex-direction: column;
+}
+
+.label {
+  color: var(--white);
+  margin-bottom: 0.4rem;
+}
+
+.label:last-of-type {
+  margin-top: 1.5rem;
+}
+
+.input {
+  width: 27vw;
+  height: 5vh;
+  padding: 0rem 1rem;
+
+  color: var(--nobel);
+  background-color: var(--mine-shaft);
+  border: 1px solid var(--tundora);
+  border-radius: 0.2rem;
 }
 
 .footer {
