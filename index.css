@@ -130,6 +130,13 @@ html {
   font-weight: 600;
 }
 
+.forgot-password {
+  margin-top: 3rem;
+  color: var(--jungle-green);
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .footer {
   display: flex;
 }
