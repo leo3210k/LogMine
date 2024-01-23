@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./assets/images/background-image.png');
+  background-position: center;
+  background-repeat: round;
+}
