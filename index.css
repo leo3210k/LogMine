@@ -79,16 +79,16 @@ html {
   flex-direction: column;
 }
 
-.label {
+.label-text {
   color: var(--white);
   margin-bottom: 0.4rem;
 }
 
-.label:last-of-type {
+.label-text:last-of-type {
   margin-top: 1.5rem;
 }
 
-.input {
+.input-text {
   width: 27vw;
   height: 5vh;
   padding: 0rem 1rem;
@@ -97,6 +97,23 @@ html {
   background-color: var(--mine-shaft);
   border: 1px solid var(--tundora);
   border-radius: 0.2rem;
+}
+
+.checkbox {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.input-checkbox {
+  background-color: var(--jungle-green);
+  border: 1px solid var(--tundora);
+}
+
+.label-checkbox {
+  margin-left: 0.4rem;
+  color: var(--white);
+  font-size: 0.7rem;
 }
 
 .footer {
