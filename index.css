@@ -23,7 +23,6 @@ html {
   margin: 1.2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
 
   background-image: url('./assets/images/background-image.png');
@@ -46,7 +45,9 @@ html {
 
 .header {
   display: flex;
-  column-gap: 2rem;
+  align-items: center;
+  margin-top: 3rem;
+  column-gap: 3rem;
   color: var(--white);
   font-weight: 500;
 }
