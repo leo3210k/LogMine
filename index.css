@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Kufam', sans-serif;
+  overflow: hidden;
 }
 
 :root {
-  --white: #fff;
-  --jungle-green: #269E6D;
+  --white: rgb(255, 255, 255);
+  --black:rgba(38, 38, 38, 0.8);
+  --jungle-green: rgb(38, 158, 109);
 }
 
 html {
@@ -54,4 +56,29 @@ html {
   border-radius: 0.4rem;
   color: var(--jungle-green);
   background-color: var(--white);
+}
+
+.login-form {
+  width: 25vw;
+  height: 45vh;
+  margin: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--black);
+}
+
+.login-form  * {
+  /*margin-top: 1.2rem;*/
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
 }
