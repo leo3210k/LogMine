@@ -116,6 +116,20 @@ html {
   font-size: 0.7rem;
 }
 
+.login-account {
+  margin-top: 3rem;
+  height: 5vh;
+
+  color: var(--white);
+  background-color: var(--jungle-green);
+  border-width: 1px 0 2px 0;
+  border-color: var(--white);
+  border-style: solid;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 .footer {
   display: flex;
 }
