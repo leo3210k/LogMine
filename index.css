@@ -70,6 +70,7 @@ html {
 
 .menu-mobile {
   display: none;
+  cursor: pointer;
 }
 
 .login-form {
@@ -126,6 +127,7 @@ html {
   background-color: var(--mine-shaft);
   border: 1.8px solid var(--dove-gray);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .label-checkbox {
@@ -148,6 +150,7 @@ html {
   font-size: 1.3rem;
   font-weight: 600;
   box-shadow: var(--box-shadow);
+  cursor: pointer;
 }
 
 .forgot-password {
@@ -155,6 +158,10 @@ html {
   color: var(--jungle-green);
   font-weight: 500;
   text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
 }
 
 .footer {
@@ -176,6 +183,7 @@ html {
 @media (min-width: 768px) and (max-width: 1260px) {
   .header {
     width: 100vw;
+    margin-top: 3rem;
     display: flex;
     justify-content: space-around;
   }
@@ -186,6 +194,44 @@ html {
 
   .menu-mobile {
     display: block;
+  }
+
+  .form {
+    margin-top: 1.2rem;
+  }
+
+  .login-form {
+    width: 65vw;
+    height: 60vh;
+    margin-top: 10rem;
+  }
+
+  .label-text {
+    margin-bottom: 0.6rem;
+  }
+
+  .label-text:last-of-type {
+    margin-top: 2rem;
+  }
+
+  .input-text {
+    width: 50vw;
+  }
+
+  .checkbox {
+    margin-top: 1.5rem;
+  }
+
+  .login-account {
+    margin-top: 4rem;
+  }
+
+  .forgot-password {
+    margin-top: 4.5rem;
+  }
+
+  .footer {
+    display: none;
   }
 }
 
