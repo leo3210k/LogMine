@@ -50,7 +50,7 @@ html {
   font-weight: bold;
 }
 
-.header {
+.header-items {
   display: flex;
   align-items: center;
   margin-top: 3rem;
@@ -59,7 +59,7 @@ html {
   font-weight: 500;
 }
 
-.header span:first-of-type {
+.header-items span:first-of-type {
   padding: 0.43rem 2.2rem;
   border-radius: 0.4rem;
   color: var(--jungle-green);
