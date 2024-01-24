@@ -13,6 +13,10 @@
   --mine-shaft:rgba(38, 38, 38, 1);
   --tundora: rgba(65, 65, 65, 1);
   --nobel: rgba(186, 172, 172, 1);
+  --dove-gray: rgba(115, 115, 115, 0.5);
+  --box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.4),
+                0 2px 0 0 rgba(255, 255, 255, 1),
+                0 0 0 8px rgba(255, 255, 255, 0.05);
 }
 
 html {
@@ -70,6 +74,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid var(--dove-gray);
   border-radius: 1rem;
   background-color: var(--black);
 }
@@ -77,6 +82,10 @@ html {
 .form {
   display: flex;
   flex-direction: column;
+}
+
+.form > * {
+  margin: 0 1rem;
 }
 
 .label-text {
@@ -118,20 +127,22 @@ html {
 
 .login-account {
   margin-top: 3rem;
+  margin-bottom: 1rem;
   height: 5vh;
 
   color: var(--white);
   background-color: var(--jungle-green);
-  border-width: 1px 0 2px 0;
+  border-width: 0.1px 0 0 0;
   border-color: var(--white);
   border-style: solid;
   border-radius: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
+  box-shadow: var(--box-shadow);
 }
 
 .forgot-password {
-  margin-top: 3rem;
+  margin-top: 2rem;
   color: var(--jungle-green);
   font-weight: 500;
   text-decoration: none;
