@@ -105,7 +105,7 @@ html {
   color: var(--nobel);
   background-color: var(--mine-shaft);
   border: 1px solid var(--tundora);
-  border-radius: 0.2rem;
+  border-radius: 0.15rem;
 }
 
 .checkbox {
@@ -115,8 +115,11 @@ html {
 }
 
 .input-checkbox {
-  background-color: var(--jungle-green);
-  border: 1px solid var(--tundora);
+  width: 15px;
+  height: 15px;
+  background-color: var(--black);
+  border: 1px solid var(--dove-gray);
+  border-radius: 0.3rem;
 }
 
 .label-checkbox {
