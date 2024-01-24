@@ -66,6 +66,10 @@ html {
   background-color: var(--white);
 }
 
+.menu-mobile {
+  display: none;
+}
+
 .login-form {
   width: 34vw;
   height: 51vh;
@@ -168,7 +172,20 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1260px) {
-  
+  .header {
+    width: 100vw;
+    margin: 0 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-items {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
 }
 
 /*@media (min-width: 600px) and (max-width: 767px) */
