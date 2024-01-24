@@ -196,14 +196,14 @@ html {
     display: block;
   }
 
-  .form {
-    margin-top: 1.2rem;
-  }
-
   .login-form {
     width: 65vw;
     height: 60vh;
     margin-top: 10rem;
+  }
+
+  .form {
+    margin-top: 1.2rem;
   }
 
   .label-text {
@@ -235,4 +235,57 @@ html {
   }
 }
 
-/*@media (min-width: 600px) and (max-width: 767px) */
+@media (max-width: 767px) {
+  .header {
+    width: 100vw;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header-items {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  .login-form {
+    width: 80vw;
+    height: 60vh;
+    margin-top: 8rem;
+  }
+
+  .form {
+    margin-top: 1.5rem;
+  }
+
+  .label-text {
+    margin-bottom: 0.6rem;
+  }
+
+  .label-text:last-of-type {
+    margin-top: 2rem;
+  }
+
+  .input-text {
+    width: 70vw;
+  }
+
+  .checkbox {
+    margin-top: 1.5rem;
+  }
+
+  .login-account {
+    margin-top: 4rem;
+  }
+
+  .forgot-password {
+    margin-top: 3rem;
+  }
+
+  .footer {
+    display: none;
+  }
+}
