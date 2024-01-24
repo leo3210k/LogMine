@@ -149,5 +149,17 @@ html {
 }
 
 .footer {
+  margin-top: 2rem;
   display: flex;
+  column-gap: 3rem;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.8rem;
+
+  color: var(--white);
 }
