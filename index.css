@@ -109,17 +109,17 @@ html {
 }
 
 .checkbox {
-  margin-top: 0.8rem;
+  margin-top: 1rem;
   display: flex;
   align-items: center;
 }
 
 .input-checkbox {
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   background-color: var(--mine-shaft);
-  border: 1px solid var(--dove-gray);
-  border-radius: 0.3rem;
+  border: 1.8px solid var(--dove-gray);
+  border-radius: 4px;
 }
 
 .label-checkbox {
