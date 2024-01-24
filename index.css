@@ -9,6 +9,7 @@
 :root {
   --white: rgb(255, 255, 255);
   --jungle-green: rgb(38, 158, 109);
+  --jungle-green-darker: rgba(38, 135, 110, 1);
   --mine-shaft:rgba(38, 38, 38, 1);
   --mine-shaft-lighter:rgba(38, 38, 38, 0.8);
   --tundora: rgba(65, 65, 65, 1);
@@ -152,6 +153,10 @@ html {
   font-weight: 600;
   box-shadow: var(--box-shadow);
   cursor: pointer;
+}
+
+.login-account:hover {
+  background-color: var(--jungle-green-darker);
 }
 
 .forgot-password {
