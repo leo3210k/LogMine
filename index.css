@@ -60,7 +60,7 @@ html {
 }
 
 .header span:first-of-type {
-  padding: 0.5rem 2.2rem;
+  padding: 0.43rem 2.2rem;
   border-radius: 0.4rem;
   color: var(--jungle-green);
   background-color: var(--white);
