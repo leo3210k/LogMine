@@ -48,7 +48,6 @@
 .header-items {
   display: flex;
   align-items: center;
-  margin-top: 3rem;
   column-gap: 3rem;
   color: var(--white);
   font-weight: 500;
