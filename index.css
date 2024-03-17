@@ -22,8 +22,9 @@
 
 .container {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid: 100px 100px 1fr 100px / 1fr;
+  justify-items: center;
   align-items: center;
 
   background-image: url('./assets/images/background-image.png');
