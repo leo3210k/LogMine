@@ -21,7 +21,7 @@
 }
 
 .container {
-  height: 100vh;
+  height: 100svh;
   display: grid;
   grid: 100px 100px 1fr 100px / 1fr;
   justify-items: center;
