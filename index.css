@@ -98,8 +98,8 @@
 }
 
 .input-text {
-  width: 27vw;
-  height: 5vh;
+  width: 31.125rem;
+  height: 3rem;
   padding: 0rem 1rem;
 
   color: var(--nobel);
