@@ -196,6 +196,10 @@
     display: block;
   }
 
+  .login-form {
+    grid-column: span 2;
+  }
+
   .form {
     margin-top: 1.2rem;
   }
