@@ -192,6 +192,10 @@
     justify-self: flex-start;
   }
 
+  .header {
+    justify-self: flex-end;
+  }
+
   .header-items {
     display: none;
   }
