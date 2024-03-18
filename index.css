@@ -244,7 +244,6 @@
 
 @media (max-width: 767px) {
   .header {
-    width: 100vw;
     margin-top: 3rem;
     display: flex;
     justify-content: space-around;
