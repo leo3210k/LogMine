@@ -53,14 +53,20 @@
   font-weight: 500;
 }
 
-.header-items span:first-of-type {
+.header-items span {
   padding: 0.43rem 2.2rem;
+}
+
+.header-items span:first-of-type {
   border-radius: 0.4rem;
   color: var(--jungle-green);
   background-color: var(--white);
 }
 
 .header-items *:hover {
+  border-radius: 0.4rem;
+  color: var(--jungle-green);
+  background-color: var(--white);
   cursor: pointer;
 }
 
