@@ -188,6 +188,10 @@
     align-items: center;
   }
 
+  .logo {
+    justify-self: flex-start;
+  }
+
   .header-items {
     display: none;
   }
