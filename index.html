@@ -36,7 +36,7 @@
       <input class="input-text" type="text" name="password" placeholder="0123456">
       <div class="checkbox">
         <div class="input-checkbox" name="remember password" onclick="toggleCorrect()">
-          <img class="checkbox-correct" src="./assets/svg/correct.svg" alt="correct">
+          <img class="checkbox-correct checkbox-correct-not-visible" src="./assets/svg/correct.svg" alt="correct">
         </div>
         <label class="label-checkbox" for="remember password">Lembrar minha senha</label>
       </div>
@@ -69,4 +69,9 @@
 </body>
 </html>
 <script>
+  function toggleCorrect() {
+    const correct = document.querySelector(".checkbox-correct")
+    correct.classList.toggle("checkbox-correct-not-visible")
+    console.log("teste")
+  }
 </script>
