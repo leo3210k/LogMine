@@ -243,6 +243,13 @@
 }
 
 @media (max-width: 767px) {
+  .container {
+    margin: 1rem 2rem;
+    grid: 100px 1fr / 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
   .header-items {
     display: none;
   }
