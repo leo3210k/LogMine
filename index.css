@@ -243,12 +243,6 @@
 }
 
 @media (max-width: 767px) {
-  .header {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: space-around;
-  }
-
   .header-items {
     display: none;
   }
