@@ -182,12 +182,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 1260px) {
-  .header {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: space-around;
-  }
-
   .header-items {
     display: none;
   }
